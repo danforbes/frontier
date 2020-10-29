@@ -1,0 +1,6 @@
+(function() {var implementors = {};
+implementors["frontier_consensus_primitives"] = [{"text":"impl EncodeLike&lt;ConsensusLog&gt; for ConsensusLog","synthetic":false,"types":[]}];
+implementors["frontier_rpc_primitives"] = [{"text":"impl EncodeLike&lt;TransactionStatus&gt; for TransactionStatus","synthetic":false,"types":[]}];
+implementors["frontier_template_runtime"] = [{"text":"impl EncodeLike&lt;SessionKeys&gt; for SessionKeys","synthetic":false,"types":[]},{"text":"impl EncodeLike&lt;Event&gt; for Event","synthetic":false,"types":[]},{"text":"impl EncodeLike&lt;OriginCaller&gt; for OriginCaller","synthetic":false,"types":[]},{"text":"impl EncodeLike&lt;Call&gt; for Call","synthetic":false,"types":[]}];
+implementors["pallet_ethereum"] = [{"text":"impl EncodeLike&lt;Event&gt; for Event","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;Trait&gt; EncodeLike&lt;Call&lt;T&gt;&gt; for Call&lt;T&gt;","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
