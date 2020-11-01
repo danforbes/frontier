@@ -1,3 +1,8 @@
+# Build
+
+Build with:
+cargo +nightly-2020-08-23 build --release
+
 # Frontier
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/paritytech/frontier/Rust)
