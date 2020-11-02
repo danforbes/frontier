@@ -64,7 +64,7 @@ function PrivateKeyProvider(privateKey, providerUrl, chainId) {
     throw new Error(`Provider URL missing, non-empty string expected, got "${providerUrl}"`);
   }
 
-  this.wallet = EthereumjsWallet.default.fromPrivateKey(new Buffer(privateKey, "hex"));
+  this.wallet = EthereumjsWallet.default.fromPrivateKey(Buffer.from(privateKey, "hex"));
   this.address = "0x" + this.wallet.getAddress().toString("hex");
 
   this.engine = new ProviderEngine({ useSkipCache: false });

@@ -290,7 +290,7 @@ pub struct FixedGasPrice;
 
 impl FeeCalculator for FixedGasPrice {
 	fn min_gas_price() -> U256 {
-		// Gas price is always one token per gas.
+		// Free gas for development
 		0.into()
 	}
 }
